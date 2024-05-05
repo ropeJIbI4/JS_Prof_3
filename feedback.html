@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback</title>
+</head>
+<body>
+    <h1>Добавить отзыв</h1>
+    <form id="addReviewForm">
+        <label for="productName">Название продукта:</label><br>
+        <input type="text" id="productName" name="productName" required><br>
+        <label for="reviewText">Текст отзыва:</label><br>
+        <textarea id="reviewText" name="reviewText" required></textarea><br>
+        <button type="submit">Добавить отзыв</button>
+    </form>
+    <div id="error-message"></div>
+<script src="script.js"></script>
+</body>
+</html>
